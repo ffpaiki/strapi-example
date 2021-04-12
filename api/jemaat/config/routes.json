@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jemaats",
+      "handler": "jemaat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jemaats/count",
+      "handler": "jemaat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jemaats/:id",
+      "handler": "jemaat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jemaats",
+      "handler": "jemaat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jemaats/:id",
+      "handler": "jemaat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jemaats/:id",
+      "handler": "jemaat.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

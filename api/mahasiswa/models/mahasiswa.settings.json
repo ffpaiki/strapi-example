@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mahasiswas",
+  "info": {
+    "name": "Mahasiswa",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nim": {
+      "type": "string"
+    },
+    "nama": {
+      "type": "string"
+    },
+    "program_studi": {
+      "model": "program-studi",
+      "via": "mahasiswas"
+    }
+  }
+}

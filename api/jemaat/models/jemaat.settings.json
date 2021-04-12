@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jemaats",
+  "info": {
+    "name": "Jemaat",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "jemaatID": {
+      "type": "uid"
+    },
+    "namaLengkap": {
+      "type": "string",
+      "required": true
+    },
+    "tempatLahir": {
+      "type": "string"
+    },
+    "tanggalLahir": {
+      "type": "date"
+    },
+    "jenisKelamin": {
+      "type": "enumeration",
+      "enum": [
+        "Pria",
+        "Wanita"
+      ]
+    }
+  }
+}

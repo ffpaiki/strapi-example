@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "program_studis",
+  "info": {
+    "name": "Program Studi",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "programStudi": {
+      "type": "string"
+    },
+    "mahasiswas": {
+      "via": "program_studi",
+      "collection": "mahasiswa"
+    },
+    "kodeProgramStudi": {
+      "type": "string"
+    }
+  }
+}
