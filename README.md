@@ -1,3 +1,3 @@
 # Strapi application
 
-A quick description of your strapi application
+Strapi merupakan headless CMS yang akan digunakan pada pemrograman kali ini
